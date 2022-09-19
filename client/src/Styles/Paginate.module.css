@@ -1,0 +1,20 @@
+.navContainer{
+    display:flex;
+    justify-content: center;
+    
+}
+.number{    
+    color:rgb(110, 196, 236);
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+.number:hover{
+    cursor: pointer;
+    border: 1px solid rgb(95, 115, 231);
+    border-radius:8px;
+}
+.pagination{
+    display:flex;    
+    font-size: 20px;
+    
+}

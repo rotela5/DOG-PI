@@ -1,0 +1,121 @@
+@media screen and (min-width: 300px) and (max-width: 600px){       
+    .imagen{
+        max-width:  150px;
+        max-height: 150px;
+        border-radius: 5px;
+    } 
+    h1{
+        font-size:20px;
+    }  
+    h2{
+        font-size:12px;
+    }  
+    h3{
+        font-size:10px;
+    }  
+    .order{
+        width:50%;
+    }
+   
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){   
+    .imagen{
+        max-width:  200px;
+        max-height: 200px;
+        border-radius: 10px;
+    }
+    h1{
+        font-size:26px;
+    } 
+    h2{
+        font-size:18px;
+    } 
+    h3{
+        font-size:15px;
+    }    
+}
+@media screen and (min-width: 901px) and (max-width: 1366px){   
+    .imagen{
+        max-width:  300px;
+        max-height: 300px;
+        border-radius: 10px;
+    }
+    h1{
+        font-size:32px;
+    } 
+    h2{
+        font-size:24px;
+    }
+    h3{
+        font-size:19px;
+    }   
+
+}
+
+
+.text_white{
+    color:rgb(20, 75, 196);   
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    border-radius: 20px;
+    padding: 20px;
+    color:rgb(28, 48, 226); 
+}
+
+.card_container{
+    margin-top:70px;
+    display: flex;
+    width:50%;
+    height: auto;
+    background: transparent;
+    border-radius: 20px;
+    background-color:rgba(242, 241, 245, 0.1);  
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0, .5);
+    color:burlywood; 
+}
+
+.header{
+    border-right: 1px; 
+    color:burlywood; 
+    box-shadow: 1px 1px  2px rgba(0,0,0, .5);
+    
+}
+
+.description{
+    background: transparent;
+    width: 100%;
+}
+
+.header, .description{
+    padding:20px;
+    text-align: start;
+}
+
+.imagen{
+    max-width:  300;
+    max-height: 300;
+    border-radius: 18px;
+}
+.order{
+    border: 3px solid rgb(60, 28, 241);
+    padding: 5px;
+    background-color: rgb(90, 117, 238);
+    border-radius:10px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+}
+
+.areaBoton{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}

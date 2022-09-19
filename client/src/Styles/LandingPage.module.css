@@ -1,0 +1,14 @@
+.startBtn{
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    border-radius:.8rem;
+    width: 20rem;
+    height: 2.5rem;
+    color: #F7F6F2;
+    justify-items: flex-end;
+    background: #03520d;
+    animation: fluid 30s ease-in-out infinite;
+    background: linear-gradient(-45deg, #b8d8f1, #98e8ee, #5fb4e6, #2375dfc7);
+    background-size: 300%;
+  }
